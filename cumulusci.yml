@@ -1,0 +1,22 @@
+minimum_cumulusci_version: '3.74.0'
+project:
+    name: Nonprofit-Cloud-Scratch
+    package:
+        name: Nonprofit-Cloud-Scratch
+        api_version: '57.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/Nonprofit-Cloud-Scratch/tests
+            options:
+                outputdir: robot/Nonprofit-Cloud-Scratch/results
+
+    robot_testdoc:
+        options:
+            path: robot/Nonprofit-Cloud-Scratch/tests
+            output: robot/Nonprofit-Cloud-Scratch/doc/Nonprofit-Cloud-Scratch_tests.html
+
