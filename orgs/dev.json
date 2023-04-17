@@ -1,7 +1,7 @@
 {
   "orgName": "Nonprofit-Cloud-Scratch - Dev Org",
-  "sourceOrg": "00D7Q00000CJXaYUAX",
-  "features": ["ForceComPlatform"],
+  "edition": "Enterprise",
+  "features": ["ProgramManagement", "ForceComPlatform"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
